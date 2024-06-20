@@ -1,1 +1,76 @@
-Hola a todos 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop It!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                Burbujas
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#about" class="header__nav-link">О нас</a></li>
+                    <li class="header__nav-item"><a href="#discounts" class="header__nav-link">Скидки</a></li>
+                    <li class="header__nav-item"><a href="#contacts" class="header__nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__content">
+            <h1 class="header__title">POP IT!</h1>
+            <p class="header__subtitle">¡El mejor juguete antiestrés es el plástico de burbujas sin fin!</p>
+            <button class="header__button button">Comprar</button>
+        </div>
+        <img class="header__image" src="images/background2.png" alt="Pop It Image">
+    </header>
+    <main class="main">
+        <section id="about" class="about">
+            <h2 class="about__title">¿Qué es Pop it?</h2>
+            <p class="about__text">Pop it se traduce literalmente como "pop it". Este es un juego para niños, cuyo proceso se puede comparar con el estallido del plástico de burbujas. 
+                Pero a diferencia de las películas, el pop-it se puede presionar “infinitamente” con sensaciones y sonidos característicos: simplemente se exprimen decenas de burbujas de silicona en la dirección opuesta.</p>
+        </section>
+        <section id="products" class="products">
+            <h2 class="products__title">¡Elige tu Pop-It!</h2>
+            <div class="carousel">
+                <div class="carousel__inner">
+                    <div class="carousel__item products__item">
+                        <img src="images/square.png" alt="Cuadrado multicolor" class="products__image">
+                        <button class="products__button button">Comprar</button>
+                    </div>
+                    <div class="carousel__item products__item">
+                        <img src="images/amongus.png" alt="Among Us" class="products__image">
+                        <button class="products__button button">Comprar</button>
+                    </div>
+                    <div class="carousel__item products__item">
+                        <img src="images/round.png" alt="Ronda multicolor" class="products__image">
+                        <button class="products__button button">Comprar</button>
+                    </div>
+                </div>
+                <button class="carousel__button carousel__button--prev">Prev</button>
+                <button class="carousel__button carousel__button--next">Next</button>
+            </div>
+        </section>
+        <section id="rules" class="rules">
+            <h2 class="rules__title">Reglas del juego</h2>
+            <p class="rules__text">Los jugadores se turnan y presionan las burbujas. Es imperativo terminar la fila que empezaste. 
+                Puedes presionar un máximo de 3 burbujas a la vez (deben estar cerca, no puedes presionar varias burbujas a la vez si no están cerca). 
+                La tarea es asegurarse de que el oponente se vaya el último. ¡El último que caminó perdió!</p>
+            <img src="images/photo.jpg" alt="Игра с Pop it" class="rules__image">
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Burbujas</p>
+        <ul class="footer__nav">
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Métodos de pago</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Envio</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Información</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__nav-link">Contactos</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
